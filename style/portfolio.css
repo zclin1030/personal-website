@@ -1,0 +1,24 @@
+.stayTuned{
+  display: flex;
+  flex-direction: column;
+  margin-top:120px ;
+}
+
+.back {
+  font-size: 24px;
+  padding-bottom: 12px;
+  margin-left: 4px;
+  transition: 0.3s;
+}
+
+.text {
+  color: rgba(0, 0, 0, 0.08);
+  padding-top: 120px;
+  font-family:Abril Fatface;
+  font-size: 120px;
+}
+
+.back:hover {
+  transform: translate(-4px);
+}
+
